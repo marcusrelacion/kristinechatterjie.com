@@ -1,0 +1,48 @@
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="description" content="{{ site.meta.description }}">
+
+  <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+
+  <!-- title -->
+  <title>{{ site.title }}</title>
+
+  <!-- icons -->
+  <link rel='shortcut icon' type='image/x-icon' href='' />
+
+  <!-- styles -->
+  <link href="/assets/css/base.css" media="all" rel="stylesheet" type="text/css" />
+
+  <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700|Source+Serif+Pro');
+  </style>
+  <style>
+      @import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,600,700');
+  </style>
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Merriweather:300,400,900" rel="stylesheet">
+
+  {% if page.layout == "single/photos" %}
+      <!-- mapbox -->
+      <script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+      <link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+  {% endif %}
+
+  <!-- smart browser detection -->
+  <script type="text/javascript">
+      if ('visibilityState' in document) {
+          var doc = document.getElementsByTagName("html");
+          doc[0].className = 'modern-browser';
+      }
+  </script>
+
+  <!-- jquery -->
+  <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+
+  <!-- html5shiv -->
+  <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+</head>
