@@ -1,0 +1,26 @@
+{
+  "name": "kristinechatterjie.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusrelacion/kristinechatterjie.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusrelacion/kristinechatterjie.com/issues"
+  },
+  "homepage": "https://github.com/marcusrelacion/kristinechatterjie.com#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-util": "^3.0.8"
+  }
+}
