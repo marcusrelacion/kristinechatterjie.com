@@ -8,49 +8,19 @@
   </div>
 </section>
 
-<section class="work">
+<section class="work fl w-100">
   <div class="mw8 center cf pa4">
     <ul class="list ma0 pa0">
-      <li>
-        <div class="fl w-100 w-50-ns w5 h5 bg-black-70 ba bw2 white pa1 dim">
-          <img class="w-100 v-mid dib" src="http://placecorgi.com/472/244" />
-        </div>
-      </li>
-      <li>
-        <div class="fl w-100 w-50-ns w5 h5 bg-black-70 ba bw2 white pa1 dim">
-          <img class="w-100 v-mid dib" src="http://placecorgi.com/472/244" />
-        </div>
-      </li>
-      <li>
-        <div class="fl w-100 w-50-ns w5 h5 bg-black-70 ba bw2 white pa1 dim">
-          <img class="w-100 v-mid dib" src="http://placecorgi.com/472/244" />
-        </div>
-      </li>
-      <li>
-        <div class="fl w-100 w-50-ns w5 h5 bg-black-70 ba bw2 white pa1 dim">
-          <img class="w-100 v-mid dib" src="http://placecorgi.com/472/244" />
-        </div>
-      </li>
-      <li>
-        <div class="fl w-100 w-50-ns w5 h5 bg-black-70 ba bw2 white pa1 dim">
-          <img class="w-100 v-mid dib" src="http://placecorgi.com/472/244" />
-        </div>
-      </li>
-      <li>
-        <div class="fl w-100 w-50-ns w5 h5 bg-black-70 ba bw2 white pa1 dim">
-          <img class="w-100 v-mid dib" src="http://placecorgi.com/472/244" />
-        </div>
-      </li>
-      <li>
-        <div class="fl w-100 w-50-ns w5 h5 bg-black-70 ba bw2 white pa1 dim">
-          <img class="w-100 v-mid dib" src="http://placecorgi.com/472/244" />
-        </div>
-      </li>
-      <li>
-        <div class="fl w-100 w-50-ns w5 h5 bg-black-70 ba bw2 white pa1 dim">
-          <img class="w-100 v-mid" src="http://placecorgi.com/472/244" />
-        </div>
-      </li>
+      {% assign sorted_work = site.work %} 
+      {% for posts in sorted_work limit: 8 %}
+        <li class="fl w-100 w-50-ns dim">
+          <a class="content-card-link db link pa1 pl1 pr1" href="{{ posts.url }}">
+            <figure class="content-card-image ma0 pa0 h4 overflow-hidden">
+              <img class="v-mid" src="{{ posts.project-hero-image }}">
+            </figure>
+          </a>
+        </li>
+      {% endfor %}
     </ul>
   </div>
 </section>
