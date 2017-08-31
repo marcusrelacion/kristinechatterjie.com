@@ -67,5 +67,5 @@ image-4: /assets/imgs/showit-4.jpg
 
 # settings
 layout: single/work
-permalink: /work/facebook-safety-center/
+permalink: /work/show-it/
 ---
