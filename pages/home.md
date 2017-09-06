@@ -8,9 +8,6 @@ introduction: |
   
   Currently a product designer at Walgreens.
 
-
-
-
 layout: pages/home
 permalink: /
 ---

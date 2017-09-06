@@ -1,0 +1,31 @@
+<article class="">
+  <div class="mw8 center cf pa3 pa4-ns pv0-l mb5">
+    <div class="fl w-100">
+      <div class="about-hero">
+        <img class="w-100 v-mid" src="{{ page.about-hero-image }}">
+      </div>
+    </div>
+
+    <div class="fl w-100 w-25-l pr0 pr4-l">
+      &nbsp;
+    </div>
+
+    <div class="fl w-100 w-75-l pv5">
+      <div class="bio">
+        <span class="montserrat ma0 mb2 f4 fw4 tracked ttu db">
+          {{ page.bio-header }}
+        </span>
+
+        <span class="playfair ma0 f5 fw4 lh-copy db">
+          {{ page.bio-text | markdownify }}
+        </span>
+      </div>
+    </div>
+    
+    <div class="fl w-100">
+      <span class="w-100 mb4 tl db">
+        <hr class="ba bw1 black">
+      </span>
+    </div>
+  </div>
+</article>
