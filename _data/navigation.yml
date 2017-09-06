@@ -1,0 +1,28 @@
+# primary menu
+primary-nav:
+  - title: "Work"
+    url: /work/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
+
+# social media
+social-nav:
+  - title: "Dribbble"
+    url: https://dribbble.com/kchatterjie
+
+  - title: "Behance"
+    url: https://www.behance.net/chatterjie
+
+  - title: "Twitter"
+    url: http://twitter.com/_chatterjie
+
+  - title: "Instagram"
+    url: http://instagram.com/chattyyyy
+
+  - title: "Flickr"
+    url: https://www.flickr.com/photos/dearestk/
+
+  - title: "LinkedIn"
+    url: https://www.linkedin.com/in/kchatterjie/
