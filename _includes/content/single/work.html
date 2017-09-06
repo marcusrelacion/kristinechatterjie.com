@@ -174,6 +174,12 @@
         <img class="w-100 v-mid mb4 db shadow-2" src="{{ page.image-10 }}" alt="{{ page.image-10-caption }}">
       </figure>
       {% endif %}
+
+      {% if page.pdf-caption %}
+      <a class="playfair ma0 mb3 f5 fw4 db black dim link" href="{{ page.pdf }}">
+        {{ page.pdf-caption }}
+      </a>
+      {% endif %}
     </div>
   </div>
 </article>

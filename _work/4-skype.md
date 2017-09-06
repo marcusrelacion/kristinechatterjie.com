@@ -37,10 +37,10 @@ image-1-caption: // Screens from the Skype Web SDK (1 of 3)
 image-1: /assets/imgs/skype-1.jpg
 
 image-2-caption: // Screens from the Skype Web SDK (2 of 3)
-image-2: /assets/imgs/skype-2.png
+image-2: /assets/imgs/skype-2.jpg
 
 image-3-caption: // Screens from the Skype Web SDK (3 of 3)
-image-3: /assets/imgs/skype-3.png
+image-3: /assets/imgs/skype-3.jpg
 
 
 # settings
