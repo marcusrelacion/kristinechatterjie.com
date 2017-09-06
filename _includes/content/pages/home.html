@@ -1,5 +1,5 @@
 <section class="introduction">
-  <div class="mw8 center cf pa4">
+  <div class="mw8 center cf pa3 pa4-ns">
     <div class="fl w-100">
       <span class="ma0 montserrat f5 f4-ns fw4 lh-copy">
         {{ page.introduction | markdownify }}
@@ -8,8 +8,8 @@
   </div>
 </section>
 
-<section class="work fl w-100 debug">
-  <div class="mw8 center cf pa4">
+<section class="work fl w-100">
+  <div class="mw8 center cf pa3 pa4-ns">
     <ul class="list ma0 pa0">
       {% assign sorted_work = site.work %} 
       {% for posts in sorted_work limit: 8 %}

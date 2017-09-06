@@ -1,5 +1,5 @@
 <article class="">
-  <div class="mw8 center cf pa4 pv0-l">
+  <div class="mw8 center cf pa3 pa4-ns pv0-l">
     <div class="fl w-100">
       <div class="project-hero">
         <img class="w-100 v-mid" src="{{ page.project-hero-image }}">
@@ -27,7 +27,7 @@
         </span>
 
         <span class="playfair ma0 f5 fw4 lh-copy db">
-          <a class="ma0 link black" href="{{ page.client-url }}" target="_blank">{{ page.client-url-text | markdownify }} </a>
+          <a class="ma0 link black" href="{{ page.client-url }}" target="_blank">{{ page.client-url-text | markdownify | downcase }} </a>
         </span>
       </div>
 
@@ -37,7 +37,7 @@
         </span>
 
         <span class="playfair ma0 f5 fw4 lh-copy db">
-          {{ page.responsibilities-text | markdownify }}
+          {{ page.responsibilities-text | markdownify | downcase }}
         </span>
       </div>
 
@@ -47,7 +47,7 @@
         </span>
 
         <span class="playfair ma0 f5 fw4 lh-copy db">
-          {{ page.tools-text | markdownify }}
+          {{ page.tools-text | markdownify | downcase }}
         </span>
       </div>
     </div>
