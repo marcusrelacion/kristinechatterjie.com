@@ -8,15 +8,15 @@
   </div>
 </section>
 
-<section class="work fl w-100">
+<section class="work fl w-100 debug">
   <div class="mw8 center cf pa4">
     <ul class="list ma0 pa0">
       {% assign sorted_work = site.work %} 
       {% for posts in sorted_work limit: 8 %}
         <li class="fl w-100 w-50-ns dim">
-          <a class="content-card-link db link pa1 pl1 pr1" href="{{ posts.url }}">
-            <figure class="content-card-image ma0 pa0 h4 overflow-hidden">
-              <img class="v-mid" src="{{ posts.project-hero-image }}">
+          <a class="content-card-link db link pa1 ph1" href="{{ posts.url }}">
+            <figure class="content-card-image ma0 pa0">
+              <img class="db v-mid" src="{{ posts.project-hero-image }}">
             </figure>
           </a>
         </li>

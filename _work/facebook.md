@@ -1,55 +1,35 @@
 ---
 title: Facebook
 description:
+order: 7
 
 #project-hero
-project-hero-image: /assets/imgs/fb-cover.jpg
+project-hero-image: /assets/imgs/cover-fb.png
 project-title: Facebook Safety Center
 
 #project information
 client-header: Client
-client-text: Internal Project
+client-text: Facebook Safety Center Team
+client-url-text: facebook.com
+client-url: https://www.facebook.com/
 responsibilities-header: Responsibilities
-responsibilities-text: Research, UI Design, Illustration, Copywriting
+responsibilities-text: mobile ui design, animation
 tools-header: Tools
-tools-text: Sketch, Illustrator
+tools-text: Sketch, After Effects, InVision
 
 #project sections
 problem-header: Problem
 problem-text: |
-  kjcnkhvnjsdalfsjdkjefsnajfndajndwkwjwkjfnwjacnjansdkjnskkjdsjcndjskvnekvjkejdscjscjsd
-
-  fljnkfhefbnjlaksnvkerwoiefajcaklsfajfdreowiejfwkdkldwq
+  The Facebook Safety Center was going through a redesign of all its content, and needed the page designs to match.
 project-goal-header: Project Goal
 project-goal-text: |
-  kjcnkhvnjsdalfsjdkjefsnajfndajndwkwjwkjfnwjacnjansdkjnskkjdsjcndjskvnekvjkejdscjscjsd
-
-  fljnkfhefbnjlaksnvkerwoiefajcaklsfajfdreowiejfwkdkldwq
-
-  kjcnkhvnjsdalfsjdkjefsnajfndajndwkwjwkjfnwjacnjansdkjnskkjdsjcndjskvnekvjkejdscjscjsd
-
-  fljnkfhefbnjlaksnvkerwoiefajcaklsfajfdreowiejfwkdkldwq
+  Provide an engaging experience of the Facebook Safety Center that included all the extensive information provided by the Facebook Safety team.
 solution-header: Solution
 solution-text: |
-  kjcnkhvnjsdalfsjdkjefsnajfndajndwkwjwkjfnwjacnjansdkjnskkjdsjcndjskvnekvjkejdscjscjsd
-
-  fljnkfhefbnjlaksnvkerwoiefajcaklsfajfdreowiejfwkdkldwq
-
-  kjcnkhvnjsdalfsjdkjefsnajfndajndwkwjwkjfnwjacnjansdkjnskkjdsjcndjskvnekvjkejdscjscjsd
-
-  fljnkfhefbnjlaksnvkerwoiefajcaklsfajfdreowiejfwkdkldwq
-
-  kjcnkhvnjsdalfsjdkjefsnajfndajndwkwjwkjfnwjacnjansdkjnskkjdsjcndjskvnekvjkejdscjscjsd
-
-  fljnkfhefbnjlaksnvkerwoiefajcaklsfajfdreowiejfwkdkldwq
+  This project was split between myself and another designer on my team. Since I have a bit of experience with animation, I was tasked to work on the design for the mobile pages as well as simple animations in the headers and footers, while she was in charge of the desktop and tablet designs.
 process-header: Process
 process-text: |
-  kjcnkhvnjsdalfsjdkjefsnajfndajndwkwjwkjfnwjacnjansdkjnskkjdsjcndjskvnekvjkejdscjscjsd
-
-  fljnkfhefbnjlaksnvkerwoiefajcaklsfajfdreowiejfwkdkldwq
-  kjcnkhvnjsdalfsjdkjefsnajfndajndwkwjwkjfnwjacnjansdkjnskkjdsjcndjskvnekvjkejdscjscjsd
-
-  fljnkfhefbnjlaksnvkerwoiefajcaklsfajfdreowiejfwkdkldwq
+  We started with a kickoff meeting with the project stakeholders, talking through all the different aspects of content needed in each of the pages. As this project was very content heavy, the solution had to make it easy for readers to search through and find the information they were looking for. Facebook provided us with illustrations to integrate throughout the layout which helped breakup our designs and avoid pages from appearing too content-heavy. After the the main parts of the mobile designs were completed, I started working simultaneously on the header and footer animations. Since these were to be subtle motions meant to provide a fun and playful tone in otherwise serious content, I focused on creating slight movements that looped. The end result for this project were Zeplin files passed over to our in-house developer for the pages, and gifs for the headers and footers.
 
 
 #project images
