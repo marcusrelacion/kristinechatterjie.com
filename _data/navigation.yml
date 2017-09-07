@@ -5,24 +5,41 @@ primary-nav:
   - title: "About"
     url: /about/
   - title: "Contact"
-    url: /contact/
+    url: mailto:kchatterjie@gmail.com
 
 # social media
 social-nav:
+  - title: "Email"
+    url: mailto:kchatterjie@gmail.com
+    username: | 
+      kchatterjie@gmail.com
+
   - title: "Dribbble"
     url: https://dribbble.com/kchatterjie
+    username: |
+      @kchatterjie
 
   - title: "Behance"
     url: https://www.behance.net/chatterjie
+    username: |
+      @chatterjie
 
   - title: "Twitter"
     url: http://twitter.com/_chatterjie
+    username: |
+      @_chatterjie
 
   - title: "Instagram"
     url: http://instagram.com/chattyyyy
+    username: |
+      @chattyyyy
 
   - title: "Flickr"
     url: https://www.flickr.com/photos/dearestk/
+    username: |
+      @dearestk
 
   - title: "LinkedIn"
     url: https://www.linkedin.com/in/kchatterjie/
+    username: |
+      @kchatterjie

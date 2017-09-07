@@ -6,8 +6,21 @@
       </div>
     </div>
 
-    <div class="fl w-100 w-25-l pr0 pr4-l">
-      &nbsp;
+    <div class="fl w-100 w-25-l pr0 pt5 pr4-l">
+      <span class="w-20 mb4 tl db">
+        <hr class="ba bw1 black">
+      </span>
+
+      <span class="montserrat ma0 mb2 f6 fw4 tracked ttu db">
+        Contact
+      </span>
+      <ul class="pl0 ma0">
+          {% for link in site.data.navigation.social-nav %}
+            <li class="db mr2">
+              <a href="{{ site.url }}{{ link.url }}" class="link dim black-80 f6 fw4 playfair" target="_blank">{{ link.title }} / {{ link.username | escape }}</a>
+            </li>
+          {% endfor %}
+        </ul>
     </div>
 
     <div class="fl w-100 w-75-l pv5">
@@ -20,6 +33,12 @@
           {{ page.bio-text | markdownify }}
         </span>
       </div>
+
+      {% if page.pdf-caption %}
+      <a class="playfair ma0 mb3 f5 fw4 db black dim link" href="{{ page.pdf }}" target="_blank">
+        {{ page.pdf-caption }}
+      </a>
+      {% endif %}
     </div>
     
   </div>
