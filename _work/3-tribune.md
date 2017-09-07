@@ -42,7 +42,7 @@ image-2: /assets/imgs/tribune-2.gif
 image-3-caption: // Mobile view of local news redesign
 image-3: /assets/imgs/tribune-3.gif
 
-image-4-caption: // Missing caption
+image-4-caption: // Preview of hover menu in desktop
 image-4: /assets/imgs/tribune-4.png
 
 
