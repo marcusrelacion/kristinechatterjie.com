@@ -1,0 +1,30 @@
+<footer role="banner" class="bg-black-10 mt5">
+  <div class="mw8 center cf pa3 pa4-ns">
+    <nav class="fl w-100 tc tl-ns">
+      <div class="fl w-100 w-50-m w-25-l pa1">
+        <span class="db ma0 mb2 f5 fw9 montserrat black">
+          Getting Around
+        </span>
+        <ul class="pl0 ma0 mb2">
+          {% for link in site.data.navigation.primary-nav %}
+            <li class="db dib-ns mr2">
+              <a href="{{ site.url }}{{ link.url }}" class="link dim black-80 f5 fw4 playfair">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="fl w-100 w-50-m w-75-l pa1">
+        <span class="db ma0 mb2 f5 fw9 montserrat black">
+          Social
+        </span>
+        <ul class="pl0 ma0">
+          {% for link in site.data.navigation.social-nav %}
+            <li class="db dib-ns mr2">
+              <a href="{{ site.url }}{{ link.url }}" class="link dim black-80 f5 fw4 playfair" target="_blank">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</footer>

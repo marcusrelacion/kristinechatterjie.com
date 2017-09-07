@@ -4,12 +4,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 introduction: | 
-  I'm Kristine, a designer based in Chicago, IL.
+  Hello! I'm Kristine, left-handed artist & designer.
   
   Currently a product designer at Walgreens.
-
-
-
 
 layout: pages/home
 permalink: /

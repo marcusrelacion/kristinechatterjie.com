@@ -1,17 +1,17 @@
 <section class="introduction">
   <div class="mw8 center cf pa3 pa4-ns">
     <div class="fl w-100">
-      <span class="ma0 montserrat f5 f4-ns fw4 lh-copy">
+      <span class="ma0 playfair f5 f4-ns fw4 lh-copy">
         {{ page.introduction | markdownify }}
       </span>
     </div>
   </div>
 </section>
 
-<section class="work fl w-100">
+<section class="work">
   <div class="mw8 center cf pa3 pa4-ns">
     <ul class="list ma0 pa0">
-      {% assign sorted_work = site.work %} 
+      {% assign sorted_work = site.work | sort: 'order' %} 
       {% for posts in sorted_work limit: 8 %}
         <li class="fl w-100 w-50-ns dim">
           <a class="content-card-link db link pa1 ph1" href="{{ posts.url }}">
