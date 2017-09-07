@@ -39,21 +39,6 @@ image-1: /assets/imgs/buyagain-1.gif
 image-2-caption: // Mobile view of items found in Buy Again list
 image-2: /assets/imgs/buyagain-2.gif
 
-image-3-caption:
-image-3:
-
-image-4-caption:
-image-4:
-
-image-5-caption:
-image-5:
-
-image-6-caption:
-image-6:
-
-image-7-caption:
-image-7:
-
 # settings
 layout: single/work
 permalink: /work/buy-again/

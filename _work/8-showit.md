@@ -46,7 +46,7 @@ image-4-caption: // Selected UI screens from Show It app (2 of 2)
 image-4: /assets/imgs/showit-4.jpg
 
 pdf-caption: // Click here to view PDF case study
-pdf:
+pdf: /assets/imgs/kchatterjie-showit.pdf
 
 # settings
 layout: single/work

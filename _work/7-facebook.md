@@ -42,11 +42,8 @@ image-2: /assets/imgs/fb-2.jpg
 image-3-caption: // Whiteboarding user flow (2 of 2)
 image-3: /assets/imgs/fb-3.jpg
 
-image-4-caption: // The home page and a content page for mobile (1 of 2)
-image-4: /assets/imgs/fb-4.png
-
-image-5-caption: // The home page and a content page for mobile (2 of 2)
-image-5: /assets/imgs/fb-5.png
+image-4-caption: // The home page and a content page for mobile
+image-4: /assets/imgs/fb-side-by-side.png
 
 # settings
 layout: single/work

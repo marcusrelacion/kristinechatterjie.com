@@ -36,6 +36,15 @@ process-text: |
 image-1-caption: // Personas created from discovery meeting with stakeholders
 image-1: /assets/imgs/tribune-1.jpeg
 
+image-2-caption: // Desktop/tablet view of local news redesign
+image-2: /assets/imgs/tribune-2.gif
+
+image-3-caption: // Mobile view of local news redesign
+image-3: /assets/imgs/tribune-3.gif
+
+image-4-caption: // Missing caption
+image-4: /assets/imgs/tribune-4.png
+
 
 # settings
 layout: single/work
