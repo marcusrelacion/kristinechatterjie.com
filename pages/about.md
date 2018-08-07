@@ -15,7 +15,7 @@ bio-text: |
 
   Other creative outlets include hand-lettering, painting, digital and film photography, and more recently, animation. I love traveling, I laugh a lot (and loudly), I spend too much time analyzing Mad Men and Twin Peaks, and I really, really enjoy both cooking and eating food.
 pdf-caption: "// Resume"
-pdf: "/assets/imgs/kchatterjie-resume.pdf"
+pdf: "/assets/imgs/kchatterjie-resume-1.pdf"
 layout: pages/about
----
 
+---
