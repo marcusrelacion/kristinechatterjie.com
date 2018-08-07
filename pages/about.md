@@ -17,5 +17,5 @@ bio-text: |
 pdf-caption: "// Resume"
 pdf: "/assets/imgs/kchatterjie-resume.pdf"
 layout: pages/about
-
 ---
+
