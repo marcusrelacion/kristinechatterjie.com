@@ -4,7 +4,7 @@ permalink: "/work/checkout-redesign/"
 description:
 order: 8
 project-hero-image: "/assets/imgs/parkwhiz-cover-checkout-redesign.png"
-project-title: Show It App
+project-title: Checkout Redesign
 client-header: Client
 client-text: Parkwhiz
 client-url-text: Parkwhiz
