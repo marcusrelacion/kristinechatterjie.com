@@ -1,7 +1,7 @@
 ---
 title: Credit Union Match
 permalink: "/work/credit-union-match-web-survey/"
-description: 
+description:
 order: 1
 project-hero-image: "/assets/imgs/cover-cumatch.png"
 project-title: Credit Union Match Web Survey
@@ -60,6 +60,5 @@ image-5-caption: "// Screen from survey flow (3 of 4)"
 image-5: "/assets/imgs/cumatch-5.png"
 image-6-caption: "// Screen from survey flow (4 of 4)"
 image-6: "/assets/imgs/cumatch-6.png"
-layout: single/work
+layout: post
 ---
-
