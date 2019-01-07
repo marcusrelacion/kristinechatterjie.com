@@ -7,7 +7,7 @@ project-hero-image: "/assets/imgs/parkwhiz-cover-checkout-redesign.png"
 project-title: Checkout Redesign
 client-header: Client
 client-text: Parkwhiz
-client-url-text: Parkwhiz
+client-url-text: parkwhiz.com
 client-url: https://parkwhiz.com/
 responsibilities-header: Responsibilities
 responsibilities-text: research, ui design
@@ -40,6 +40,6 @@ process-text: 'A checkout page is extremely vital to a business. In this update,
 image-1-caption: "// A preview of the transient checkout page on desktop."
 image-1: "/assets/imgs/parkwhiz-desktop-checkout-redesign.png"
 image-4-caption: "// On the left is a preview of the transient checkout page on mobile web. On the right this page is what the user sees when they select the “More About This Facility” link, which expands in the right column on the desktop view."
-image-4: "/assets/imgs/parkwhiz-mobile-checkout.jpg"
+image-4: "/assets/imgs/parkwhiz-mobile-checkout.png"
 layout: post
 ---
