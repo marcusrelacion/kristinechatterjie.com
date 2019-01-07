@@ -2,7 +2,7 @@
 title: Parkwhiz Checkout Redesign
 permalink: "/work/checkout-redesign/"
 description:
-order: 8
+order: 2
 project-hero-image: "/assets/imgs/parkwhiz-cover-checkout-redesign.png"
 project-title: Checkout Redesign
 client-header: Client

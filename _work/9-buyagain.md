@@ -2,7 +2,7 @@
 title: Buy Again
 permalink: "/work/buy-again/"
 description:
-order: 2
+order: 9
 project-hero-image: "/assets/imgs/cover-buy-again.png"
 project-title: Buy Again
 client-header: Client
