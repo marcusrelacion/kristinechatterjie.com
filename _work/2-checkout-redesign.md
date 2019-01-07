@@ -39,9 +39,7 @@ process-text: 'A checkout page is extremely vital to a business. In this update,
 '
 image-1-caption: "// A preview of the transient checkout page on desktop."
 image-1: "/assets/imgs/parkwhiz-desktop-checkout-redesign.png"
-image-2-caption: "// A preview of the transient checkout page on mobile web."
-image-2: "/assets/imgs/parkwhiz-mobile-checkout-redesign-location-details.png"
-image-3-caption: "// This page is what the user sees when they select the “More About This Facility” link, which expands in the right column on the desktop view."
-image-3: "/assets/imgs/parkwhiz-mobile-checkout-redesign.png"
+image-4-caption: "// On the left is a preview of the transient checkout page on mobile web. On the right this page is what the user sees when they select the “More About This Facility” link, which expands in the right column on the desktop view."
+image-4: "/assets/imgs/parkwhiz-mobile-checkout.jpg"
 layout: post
 ---

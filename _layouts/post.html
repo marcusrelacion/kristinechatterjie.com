@@ -142,7 +142,7 @@ layout: default
 			{% if page.image-4 %}
 			<figure class="ma0 pa0">
 				<figcaption class="playfair ma0 mb3 f5 fw4 db">{{ page.image-4-caption }}</figcaption>
-				{% if page.url == "/work/facebook-safety-center/" %}
+{% if page.url == "/work/facebook-safety-center/" or page.url == "/work/checkout-redesign/" %}
 				<img class="w-100 v-mid mb4 db" src="{{ page.image-4 }}" alt="{{ page.image-4-caption }}">
 				{% else %}
 				<img class="w-100 v-mid mb4 db shadow-2" src="{{ page.image-4 }}" alt="{{ page.image-4-caption }}">
