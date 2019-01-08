@@ -1,7 +1,7 @@
 ---
 title: Facebook
 permalink: "/work/facebook-safety-center/"
-description: 
+description:
 order: 7
 project-hero-image: "/assets/imgs/cover-fb.png"
 project-title: Facebook Safety Center
@@ -52,6 +52,5 @@ image-3-caption: "// Whiteboarding user flow (2 of 2)"
 image-3: "/assets/imgs/fb-3.jpg"
 image-4-caption: "// The home page and a content page for mobile"
 image-4: "/assets/imgs/fb-side-by-side.png"
-layout: single/work
+layout: post
 ---
-

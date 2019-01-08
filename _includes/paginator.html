@@ -1,0 +1,22 @@
+<section class="paginator mt5">
+	<div class="mw8 center cf pa3 pa4-ns">
+		<div class="tc cf">
+			{% if page.next.url %}
+			<a class="next dim fr f5 fw3 link pa3 black br1 montserrat db dib-ns" href="{{page.next.url}}">
+				{{page.next.title}}
+				<svg id="i-chevron-right" viewBox="0 0 32 32" width="12" height="12" fill="none" stroke="currentcolor"
+				 stroke-linecap="round" stroke-linejoin="round" stroke-width="10%">
+					<path d="M12 30 L24 16 12 2" /></svg>
+			</a>
+			{% endif %}
+			{% if page.previous.url %}
+			<a class="prev dim fl f5 fw3 link pa3 black br1 montserrat db dib-ns" href="{{page.previous.url}}">
+				<svg id="i-chevron-left" viewBox="0 0 32 32" width="12" height="12" fill="none" stroke="currentcolor"
+				 stroke-linecap="round" stroke-linejoin="round" stroke-width="10%">
+					<path d="M20 30 L8 16 20 2" /></svg>
+				{{page.previous.title}}
+			</a>
+			{% endif %}
+		</div>
+	</div>
+</section>

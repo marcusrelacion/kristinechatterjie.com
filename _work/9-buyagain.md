@@ -1,8 +1,8 @@
 ---
 title: Buy Again
 permalink: "/work/buy-again/"
-description: 
-order: 2
+description:
+order: 9
 project-hero-image: "/assets/imgs/cover-buy-again.png"
 project-title: Buy Again
 client-header: Client
@@ -50,6 +50,5 @@ image-1-caption: "// Desktop view of items found in Buy Again list"
 image-1: "/assets/imgs/buyagain-1.gif"
 image-2-caption: "// Mobile view of items found in Buy Again list"
 image-2: "/assets/imgs/buyagain-2.gif"
-layout: single/work
+layout: post
 ---
-

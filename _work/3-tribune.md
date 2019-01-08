@@ -1,7 +1,7 @@
 ---
 title: Tribune Media
 permalink: "/work/tribune-media/"
-description: 
+description:
 order: 3
 project-hero-image: "/assets/imgs/cover-trib.png"
 project-title: Local News Site Redesign
@@ -53,6 +53,5 @@ image-3-caption: "// Mobile view of local news redesign"
 image-3: "/assets/imgs/tribune-3.gif"
 image-4-caption: "// Preview of hover menu in desktop"
 image-4: "/assets/imgs/tribune-4.png"
-layout: single/work
+layout: post
 ---
-
