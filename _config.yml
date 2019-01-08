@@ -1,82 +1,63 @@
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
-# 8. Site navigation
-
-# 1. Files excluded from Jekyll builds
-exclude:
-  - package.json
-  - node_modules
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - ".jekyll-metadata"
-  - ".sass-cache"
-  - ".DS_Store"
-  - package-lock.json
-  - package.json
-  - config.codekit3
-  - LICENSE.txt
-
-# 2. Installed Gems
-plugins:
-  - jekyll-feed
-  - jekyll-mentions
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# 3. Gem settings
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-twitter:
-  username: _chatterjie # jekyll-seo-tag > Owners twitter username
-author: Kristine Chatterjie # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: Kristine Chatterjie # jekyll-seo-tag > real name
-  links: # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/_chatterjie
-    - https://www.linkedin.com/in/kchatterjie/
-    - http://instagram.com/chattyyyy
-    - https://www.flickr.com/photos/dearestk/
-    - https://www.behance.net/chatterjie
-    - https://dribbble.com/kchatterjie
-# 4. Jekyll settings
-sass:
-  sass_dir: _sass
-  style: compressed # Style compression
-timezone: America/New_York # Timezone for blog posts and alike
-
-# 5. Collections
+---
+title: Kristine Chatterjie
+timezone: America/New_York
 collections:
-  work:
-    label: work
-    title: Work # Needed for Siteleaf
+  posts:
+    title: Posts
     output: true
-    permalink: /:collection/:title/
   uploads:
     title: Uploads
     output: true
-
-    # 6. Jekyll collections settings
+  work:
+    title: Work
+    output: true
+    permalink: "/:collection/:title/"
+    label: work
 defaults:
-  - scope:
-      path: ""
-    values:
-      image: # Default image for sharing
-
-# 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-lang: en-US # Set the site language
-title: "Kristine Chatterjie" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Kristine Chatterjie is a left-handed artist and designer. Currently a UI Designer at ParkWhiz" # Site description and default description, also used in jekyll-seo-tag
-url: "https://kchatterjie.me/" # Site url, also used in jekyll-seo-tag
-baseurl: ""
-repo: "https://github.com/marcusrelacion/kristinechatterjie.com"
-email: "kchatterjie@gmail.com"
-
-# 8. Site navigation
+- scope:
+    path: ''
+  values:
+    image: 
+exclude:
+- package.json
+- node_modules
+- README.md
+- Gemfile
+- Gemfile.lock
+- ".jekyll-metadata"
+- ".sass-cache"
+- ".DS_Store"
+- package-lock.json
+- package.json
+- config.codekit3
+- LICENSE.txt
+plugins:
+- jekyll-feed
+- jekyll-mentions
+- jekyll-seo-tag
+- jekyll-sitemap
+jekyll-mentions: https://twitter.com
+twitter:
+  username: _chatterjie
+author: Kristine Chatterjie
+social:
+  name: Kristine Chatterjie
+  links:
+  - https://twitter.com/_chatterjie
+  - https://www.linkedin.com/in/kchatterjie/
+  - http://instagram.com/chattyyyy
+  - https://www.flickr.com/photos/dearestk/
+  - https://www.behance.net/chatterjie
+  - https://dribbble.com/kchatterjie
+sass:
+  sass_dir: _sass
+  style: compressed
+encoding: utf-8
+lang: en-US
+logo: "/assets/logo.svg"
+description: Kristine Chatterjie is a left-handed artist and designer. Currently a
+  UI Designer at ParkWhiz
+url: https://kchatterjie.me/
+baseurl: ''
+repo: https://github.com/marcusrelacion/kristinechatterjie.com
+email: kchatterjie@gmail.com

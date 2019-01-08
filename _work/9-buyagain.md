@@ -1,7 +1,7 @@
 ---
 title: Buy Again
 permalink: "/work/buy-again/"
-description:
+description: 
 order: 9
 project-hero-image: "/assets/imgs/cover-buy-again.png"
 project-title: Buy Again
@@ -52,3 +52,4 @@ image-2-caption: "// Mobile view of items found in Buy Again list"
 image-2: "/assets/imgs/buyagain-2.gif"
 layout: post
 ---
+

@@ -1,7 +1,7 @@
 ---
 title: Skype
 permalink: "/work/skype-web-sdk/"
-description:
+description: 
 order: 4
 project-hero-image: "/assets/imgs/cover-skype.png"
 project-title: Skype Interactive Web SDK
@@ -53,3 +53,4 @@ image-3-caption: "// Screens from the Skype Web SDK (3 of 3)"
 image-3: "/assets/imgs/skype-3.jpg"
 layout: post
 ---
+

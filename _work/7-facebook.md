@@ -1,7 +1,7 @@
 ---
 title: Facebook
 permalink: "/work/facebook-safety-center/"
-description:
+description: 
 order: 7
 project-hero-image: "/assets/imgs/cover-fb.png"
 project-title: Facebook Safety Center
@@ -54,3 +54,4 @@ image-4-caption: "// The home page and a content page for mobile"
 image-4: "/assets/imgs/fb-side-by-side.png"
 layout: post
 ---
+

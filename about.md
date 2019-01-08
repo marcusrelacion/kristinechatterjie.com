@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-description:
+description: 
 about-hero-image: "/assets/imgs/about-photo.png"
 bio-header: About Me
 bio-text: |
@@ -18,3 +18,4 @@ pdf-caption: "// Resume"
 pdf: "/assets/imgs/kchatterjie-resume.pdf"
 layout: page
 ---
+

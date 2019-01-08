@@ -1,7 +1,7 @@
 ---
 title: Show It
 permalink: "/work/show-it/"
-description:
+description: 
 order: 8
 project-hero-image: "/assets/imgs/cover-showit.png"
 project-title: Show It App
@@ -56,3 +56,4 @@ pdf-caption: "// Click here to view PDF case study"
 pdf: "/assets/imgs/kchatterjie-showit.pdf"
 layout: post
 ---
+

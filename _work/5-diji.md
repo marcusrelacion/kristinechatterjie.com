@@ -1,7 +1,7 @@
 ---
 title: Diji
 permalink: "/work/diji/"
-description:
+description: 
 order: 5
 project-hero-image: "/assets/imgs/cover-diji.png"
 project-title: Touch Screen Redesign
@@ -72,3 +72,4 @@ image-3-caption: "// Product grid shown in a Diji Touch machine, followed by pro
 image-3: "/assets/imgs/diji-3.png"
 layout: post
 ---
+
