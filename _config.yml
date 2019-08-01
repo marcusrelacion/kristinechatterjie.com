@@ -32,10 +32,7 @@ exclude:
 - config.codekit3
 - LICENSE.txt
 plugins:
-- jekyll-feed
-- jekyll-mentions
 - jekyll-seo-tag
-- jekyll-sitemap
 jekyll-mentions: https://twitter.com
 twitter:
   username: _chatterjie
