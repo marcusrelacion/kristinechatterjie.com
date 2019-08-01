@@ -55,6 +55,6 @@ logo: "/assets/logo.svg"
 description: Kristine Chatterjie is a left-handed artist and designer. Currently a
   UI Designer at ParkWhiz
 url: https://kchatterjie.me/
-baseurl: ''
+baseurl: 
 repo: https://github.com/marcusrelacion/kristinechatterjie.com
 email: kchatterjie@gmail.com
