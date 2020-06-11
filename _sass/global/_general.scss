@@ -5,3 +5,19 @@
 article {
   word-wrap: break-word;
 }
+
+.blm {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px;
+  text-align: center;
+  font-family: sans;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.blm a {
+  color: white;
+  text-decoration: underline;
+}
