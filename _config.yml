@@ -1,6 +1,6 @@
 ---
 title: Kristine Chatterjie
-timezone: America/New_York
+timezone: America/Chicago
 collections:
   posts:
     title: Posts
@@ -34,15 +34,11 @@ exclude:
 plugins:
 - jekyll-seo-tag
 jekyll-mentions: https://twitter.com
-twitter:
-  username: _chatterjie
 author: Kristine Chatterjie
 social:
   name: Kristine Chatterjie
   links:
-  - https://twitter.com/_chatterjie
   - https://www.linkedin.com/in/kchatterjie/
-  - http://instagram.com/chattyyyy
   - https://www.flickr.com/photos/dearestk/
   - https://www.behance.net/chatterjie
   - https://dribbble.com/kchatterjie
@@ -53,7 +49,7 @@ encoding: utf-8
 lang: en-US
 logo: "/assets/logo.svg"
 description: Kristine Chatterjie is a left-handed artist and designer. Currently a
-  UI Designer at ParkWhiz
+  Senior UX Designer at Aon.
 url: https://kchatterjie.me/
 baseurl: 
 repo: https://github.com/marcusrelacion/kristinechatterjie.com
