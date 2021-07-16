@@ -14,8 +14,7 @@ bio-text: |
   I am a product designer with seven years of experience designing in financial, government tech media, e-commerce, and software development industries. My portfolio includes touchscreen vending and point-of-sale technology, dashboards and applications, websites, print, and environmental design. I have a Bachelor of Fine Arts from The Art Institute of Washington, and a User Experience Research certificate from General Assembly. In my spare time, I volunteer as a TA and designer at 826CHI in Wicker Park.
 
   Other creative outlets include hand-lettering, painting, digital and film photography, and more recently, animation. I love traveling, I laugh a lot (and loudly), I spend too much time analyzing Mad Men and Twin Peaks, and I really, really enjoy both cooking and eating food.
-pdf-caption: "// Resume"
-pdf: "/uploads/kchatterjie-resume.pdf"
+pdf-caption: "// Resume - Available Upon Request"
+pdf: "mailto:kchatterjie@gmail.com"
 layout: page
 ---
-

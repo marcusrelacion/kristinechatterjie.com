@@ -4,77 +4,77 @@ layout: default
 
 {% if page.url == "/" %}
 <section class="introduction">
-	<div class="mw8 center cf pa3 pa4-ns">
-		<div class="fl w-100">
-			<span class="ma0 playfair f5 f4-ns fw4 lh-copy">
-				{{ page.introduction | markdownify }}
-			</span>
-		</div>
-	</div>
+    <div class="mw8 center cf pa3 pa4-ns">
+        <div class="fl w-100">
+            <span class="ma0 playfair f5 f4-ns fw4 lh-copy">
+                {{ page.introduction | markdownify }}
+            </span>
+        </div>
+    </div>
 </section>
 
 <section class="work">
-	<div class="mw8 center cf pa3 pa4-ns">
-		<ul class="list ma0 pa0">
-			{% assign sorted_work = site.work | sort: 'order' %}
-			{% for posts in sorted_work %}
-			<li class="fl w-100 w-50-ns dim">
-				<a class="content-card-link db link pa1 ph1" href="{{ posts.url }}">
-					<figure class="content-card-image ma0 pa0">
-						<img class="db v-mid" src="{{ posts.project-hero-image }}">
-					</figure>
-				</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
+    <div class="mw8 center cf pa3 pa4-ns">
+        <ul class="list ma0 pa0">
+            {% assign sorted_work = site.work | sort: 'order' %}
+            {% for posts in sorted_work %}
+            <li class="fl w-100 w-50-ns dim">
+                <a class="content-card-link db link pa1 ph1" href="{{ posts.url }}">
+                    <figure class="content-card-image ma0 pa0">
+                        <img class="db v-mid" src="{{ posts.project-hero-image }}">
+                    </figure>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </section>
 
 {% elsif page.url == "/about/" %}
 <article class="">
-	<div class="mw8 center cf pa3 pa4-ns pv0-l mb5">
-		<div class="fl w-100">
-			<div class="about-hero">
-				<img class="w-100 v-mid" src="{{ page.about-hero-image }}">
-			</div>
-		</div>
+    <div class="mw8 center cf pa3 pa4-ns pv0-l mb5">
+        <div class="fl w-100">
+            <div class="about-hero">
+                <img class="w-100 v-mid" src="{{ page.about-hero-image }}">
+            </div>
+        </div>
 
-		<div class="fl w-100 w-25-l pr0 pt5 pr4-l">
-			<span class="w-20 mb4 tl db">
-				<hr class="ba bw1 black">
-			</span>
+        <div class="fl w-100 w-25-l pr0 pt5 pr4-l">
+            <span class="w-20 mb4 tl db">
+                <hr class="ba bw1 black">
+            </span>
 
-			<span class="montserrat ma0 mb2 f6 fw4 tracked ttu db">
-				Contact
-			</span>
-			<ul class="pl0 ma0">
-				{% for link in site.data.navigation.social-nav %}
-				<li class="db mr2">
-					<a href="{{ site.url }}{{ link.url }}" class="link dim black-80 f6 fw4 playfair" target="_blank">{{ link.title }}
-						/ {{ link.username | escape }}</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
+            <span class="montserrat ma0 mb2 f6 fw4 tracked ttu db">
+                Contact
+            </span>
+            <ul class="pl0 ma0">
+                {% for link in site.data.navigation.social-nav %}
+                <li class="db mr2">
+                    <a href="{{ site.url }}{{ link.url }}" class="link dim black-80 f6 fw4 playfair" target="_blank">{{ link.title }}
+                        / {{ link.username | escape }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
 
-		<div class="fl w-100 w-75-l pv5">
-			<div class="bio">
-				<span class="montserrat ma0 mb2 f4 fw4 tracked ttu db">
-					{{ page.bio-header }}
-				</span>
+        <div class="fl w-100 w-75-l pv5">
+            <div class="bio">
+                <span class="montserrat ma0 mb2 f4 fw4 tracked ttu db">
+                    {{ page.bio-header }}
+                </span>
 
-				<span class="playfair ma0 f5 fw4 lh-copy db">
-					{{ page.bio-text | markdownify }}
-				</span>
-			</div>
+                <span class="playfair ma0 f5 fw4 lh-copy db">
+                    {{ page.bio-text | markdownify }}
+                </span>
+            </div>
 
-			{% if page.pdf-caption %}
-			<a class="playfair ma0 mb3 f5 fw4 db black dim link" href="{{ page.pdf }}" target="_blank">
-				{{ page.pdf-caption }}
-			</a>
-			{% endif %}
-		</div>
+            {% if page.pdf-caption %}
+            <a class="playfair ma0 mb3 f5 fw4 db black dim link" href="{{ page.pdf }}" target="_blank">
+                {{ page.pdf-caption }}
+            </a>
+            {% endif %}
+        </div>
 
-	</div>
+    </div>
 </article>
 {% endif %}
