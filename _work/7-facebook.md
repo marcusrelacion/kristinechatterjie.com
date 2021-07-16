@@ -4,6 +4,7 @@ permalink: "/work/facebook-safety-center/"
 description: 
 order: 7
 project-hero-image: "/assets/imgs/cover-fb.png"
+project-hero-alt: "Facebook cover image"
 project-title: Facebook Safety Center
 client-header: Client
 client-text: Facebook Safety Center Team

@@ -4,6 +4,7 @@ permalink: "/work/buy-again/"
 description: 
 order: 9
 project-hero-image: "/assets/imgs/cover-buy-again.png"
+project-hero-alt: "Buy Again cover image"
 project-title: Buy Again
 client-header: Client
 client-text: Walgreens

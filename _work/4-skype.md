@@ -4,6 +4,7 @@ permalink: "/work/skype-web-sdk/"
 description: 
 order: 4
 project-hero-image: "/assets/imgs/cover-skype.png"
+project-hero-alt: "Skype cover image"
 project-title: Skype Interactive Web SDK
 client-header: Client
 client-text: Skype for Business
