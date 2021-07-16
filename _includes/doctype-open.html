@@ -1,35 +1,36 @@
 <!doctype html>
 <html lang="en">
-	{% include doctype-head.html %}
+    {% include doctype-head.html %}
 
-	<body class="layout-{{page.layout}} {{page.title | downcase}}">
-		{% include blm.html %}
-		<header role="banner">
-			<!-- nav -->
-			<div class="mw8 center cf pa3 pa4-ns">
-				<nav class="dt w-100" role="navigation">
-					<a class="db dtc-l v-mid mid-gray dim w-100 w-25-l tl mb2 mb0-l" href="/" title="Home">
-						<div class="h2 w2">
-							<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
-								<defs>
-									<style>
-										.cls-1 {
-											fill: #f48ea8;
-										}
-									</style>
-								</defs>
-								<title>KCLogo</title>
-								<path class="cls-1" d="M36,.83A35.17,35.17,0,1,0,71.17,36,35.17,35.17,0,0,0,36,.83ZM15.37,10.89l20.26,11.7L15.33,34.08Zm.07,50.72,0-23.18L35.73,50.12Zm41.29-1.23-41.45-24L56.54,12.13l.19-.21Z" />
-							</svg>
-						</div>
-					</a>
-					<div class="db dtc-l v-mid tl tr-l">
-						{% for link in site.data.navigation.primary-nav %}
-						<a href="{{ link.url }}" class="montserrat f6 fw3 ttu link dim dib black mr3 ml4-l">
-							{{ link.title }}
-						</a>
-						{% endfor %}
-					</div>
-				</nav>
-			</div>
-		</header>
+    <body class="layout-{{page.layout}} {{page.title | downcase}}">
+        {% include blm.html %}
+        <header role="banner">
+            <!-- nav -->
+            <div class="mw8 center cf pa3 pa4-ns">
+                <nav class="dt w-100" role="navigation">
+                    <a class="db dtc-l v-mid mid-gray dim w-100 w-25-l tl mb2 mb0-l" href="/" title="Home">
+                        <div class="h2 w2">
+                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #f48ea8;
+                                        }
+
+                                    </style>
+                                </defs>
+                                <title>KCLogo</title>
+                                <path class="cls-1" d="M36,.83A35.17,35.17,0,1,0,71.17,36,35.17,35.17,0,0,0,36,.83ZM15.37,10.89l20.26,11.7L15.33,34.08Zm.07,50.72,0-23.18L35.73,50.12Zm41.29-1.23-41.45-24L56.54,12.13l.19-.21Z" />
+                            </svg>
+                        </div>
+                    </a>
+                    <div class="db dtc-l v-mid tl tr-l">
+                        {% for link in site.data.navigation.primary-nav %}
+                        <a href="{{ link.url }}" class="montserrat f6 fw3 ttu link dim dib black mr3 ml4-l">
+                            {{ link.title }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                </nav>
+            </div>
+        </header>

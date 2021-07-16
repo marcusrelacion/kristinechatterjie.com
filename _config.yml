@@ -1,6 +1,6 @@
 ---
 title: Kristine Chatterjie
-timezone: America/Chicago
+timezone: America/New_York
 collections:
   posts:
     title: Posts
@@ -34,12 +34,13 @@ exclude:
 plugins:
 - jekyll-seo-tag
 jekyll-mentions: https://twitter.com
+twitter:
+  username: _chatterjie
 author: Kristine Chatterjie
 social:
   name: Kristine Chatterjie
   links:
   - https://www.linkedin.com/in/kchatterjie/
-  - https://www.flickr.com/photos/dearestk/
   - https://www.behance.net/chatterjie
   - https://dribbble.com/kchatterjie
 sass:
@@ -48,9 +49,9 @@ sass:
 encoding: utf-8
 lang: en-US
 logo: "/assets/logo.svg"
-description: Kristine Chatterjie is a left-handed artist and designer. Currently a
-  Senior UX Designer at Aon.
+description: Hello! I’m Kristine, left-handed artist & designer. Currently a Senior UX Designer at Aon.
 url: https://kchatterjie.me/
 baseurl: 
 repo: https://github.com/marcusrelacion/kristinechatterjie.com
 email: kchatterjie@gmail.com
+destination: "./build/"

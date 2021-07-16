@@ -4,6 +4,7 @@ permalink: "/work/tribune-media/"
 description: 
 order: 3
 project-hero-image: "/assets/imgs/cover-trib.png"
+project-hero-alt: "Tribune cover image"
 project-title: Local News Site Redesign
 client-header: Client
 client-text: Internal Project

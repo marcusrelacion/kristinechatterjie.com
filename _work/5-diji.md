@@ -4,6 +4,7 @@ permalink: "/work/diji/"
 description: 
 order: 5
 project-hero-image: "/assets/imgs/cover-diji.png"
+project-hero-alt: "Diji cover image"
 project-title: Touch Screen Redesign
 client-header: Client
 client-text: Diji Touch
