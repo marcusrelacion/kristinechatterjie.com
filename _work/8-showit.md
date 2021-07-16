@@ -4,7 +4,7 @@ permalink: "/work/show-it/"
 description: 
 order: 8
 project-hero-image: "/assets/imgs/cover-showit.png"
-project-hero-alt: "Showit cover image"
+project-hero-alt: Showit cover image
 project-title: Show It App
 client-header: Client
 client-text: General Assembly User Experience Research Class

@@ -4,7 +4,7 @@ permalink: "/work/credit-union-match-web-survey/"
 description: 
 order: 1
 project-hero-image: "/assets/imgs/cover-cumatch.png"
-project-hero-alt: "CU Match cover image"
+project-hero-alt: CU Match cover image
 project-title: Credit Union Match Web Survey
 client-header: Client
 client-text: CUCollaborate

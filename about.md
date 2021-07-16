@@ -3,7 +3,7 @@ title: About
 permalink: "/about/"
 description: 
 about-hero-image: "/assets/imgs/about-photo.png"
-project-hero-alt: "Portrait of Kristine sitting infront of the Chicago Bean sculpture."
+project-hero-alt: Portrait of Kristine sitting infront of the Chicago Bean sculpture.
 bio-header: About Me
 bio-text: |
   <span class="ma0 montserrat">“Sometimes I get emotional over fonts.” - Kanye West</span>
@@ -16,6 +16,7 @@ bio-text: |
 
   Other creative outlets include hand-lettering, painting, digital and film photography, and more recently, animation. I love traveling, I laugh a lot (and loudly), I spend too much time analyzing Mad Men and Twin Peaks, and I really, really enjoy both cooking and eating food.
 pdf-caption: "// Resume - Available Upon Request"
-pdf: "mailto:kchatterjie@gmail.com"
+pdf: mailto:kchatterjie@gmail.com
 layout: page
 ---
+
